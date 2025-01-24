@@ -30,3 +30,22 @@ h1 {
     font-family: sans-serif;
 }
 ```
+
+#### Add Google Fonts:
+
+add to tag head
+
+```
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+```
+
+apply to element in css file
+
+```
+h1 {
+    color: white;
+    font-family: "Anton", serif;
+}
+```
