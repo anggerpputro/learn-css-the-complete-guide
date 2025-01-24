@@ -13,3 +13,11 @@
     }
 </style>
 ```
+
+### CSS File:
+
+```
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+```
