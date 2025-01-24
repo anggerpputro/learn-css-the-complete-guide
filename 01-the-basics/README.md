@@ -21,3 +21,12 @@
     <link rel="stylesheet" href="main.css">
 </head>
 ```
+
+### Text Styling:
+
+```
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+```
