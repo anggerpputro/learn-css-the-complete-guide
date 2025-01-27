@@ -49,3 +49,78 @@ h1 {
     font-family: "Anton", serif;
 }
 ```
+
+### Selectors
+
+##### 1. Elements:
+
+Set equal style for these elements
+
+```
+h1 {
+    color: red;
+}
+```
+
+```
+<h1>Our Header</h1>
+```
+
+##### 2. Classes:
+
+Set equal style for elements within the same class
+
+```
+.blog-post {
+    color: red;
+}
+```
+
+```
+<h1 class="blog-post">Our Header</h1>
+<p>Paragraph</p>
+<h1 class="blog-post">Another Header</h1>
+```
+
+##### 3. Universal:
+
+Apply to all elements
+
+```
+* {
+    color: red;
+}
+```
+
+```
+<h1>Our Header</h1>
+<p class="blog-post">The blog post</p>
+```
+
+##### 4. IDs:
+
+Set style to one specific element
+
+```
+#main-title {
+    color: red;
+}
+```
+
+```
+<h1 id="main-title">Our header</h1>
+```
+
+##### 5. Attributes:
+
+Set equal styles to all elements with attribute(s)
+
+```
+[disabled] {
+    color: red;
+}
+```
+
+```
+<button disabled>Click</button>
+```
